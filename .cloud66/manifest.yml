@@ -1,0 +1,7 @@
+production:
+    rails:
+        configuration:
+            nginx:
+                cors:
+                    origin: '*'
+                    methods: 'GET, OPTION'
