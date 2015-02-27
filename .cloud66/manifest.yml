@@ -5,3 +5,7 @@ production:
                 cors:
                     origin: '*'
                     methods: 'GET, OPTION'
+    postgresql:
+        configuration:
+            version: 9.4.1
+            postgis: true
