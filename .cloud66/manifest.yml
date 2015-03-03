@@ -7,5 +7,6 @@ production:
                     methods: 'GET, OPTION'
     postgresql:
         configuration:
-            version: 9.4.1
             postgis: true
+        server:
+            root_disk_size: 100
