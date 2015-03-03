@@ -9,3 +9,5 @@ production:
         server:
             unique_name: app
             root_disk_size: 100
+        configuration:
+            root_disk_size: 100
