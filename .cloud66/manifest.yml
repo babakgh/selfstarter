@@ -7,4 +7,5 @@ production:
                     methods: 'GET, OPTION'
     postgresql:
         server:
+            unique_name: app
             root_disk_size: 100
