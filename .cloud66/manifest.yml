@@ -6,7 +6,5 @@ production:
                     origin: '*'
                     methods: 'GET, OPTION'
     postgresql:
-        configuration:
-            postgis: true
         server:
             root_disk_size: 100
