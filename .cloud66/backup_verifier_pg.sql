@@ -1,1 +1,1 @@
-select count(*)<>0 as result from kartik1
+select count(*)<>0 as result from u5l442
