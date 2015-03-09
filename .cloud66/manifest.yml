@@ -1,13 +1,11 @@
 production:
     rails:
         configuration:
+            ruby_version: 2.2.0
             nginx:
                 cors:
                     origin: '*'
                     methods: 'GET, OPTION'
-    postgresql:
-        server:
-            unique_name: app
-            root_disk_size: 100
-        configuration:
-            root_disk_size: 60
+           
+
+   
