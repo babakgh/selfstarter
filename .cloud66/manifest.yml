@@ -1,13 +1,13 @@
 production:
     rails:
+        servers:
+            server:
+                unique_name: frontend
+                subnet_id: subnet-0ad37553 
         configuration:
-            nginx:
-                cors:
-                    origin: '*'
-                    methods: 'GET, OPTION'
-    postgresql:
-        server:
-            unique_name: app
-            root_disk_size: 100
-        configuration:
-            root_disk_size: 60
+            vpc_id: vpc-05d34860
+    redis:
+        servers:
+            server:
+                unique_name: redisdb
+                subnet_id: subnet-0ad37553
